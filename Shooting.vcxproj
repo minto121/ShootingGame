@@ -19,10 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GameClaerScene.h" />
     <ClInclude Include="GameMainScene.h" />
+    <ClInclude Include="PadInput.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GameClaerScene.cpp" />
     <ClCompile Include="GameMainScene.cpp" />
+    <ClCompile Include="PadInput.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
