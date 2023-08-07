@@ -1,6 +1,7 @@
 #pragma once
 class AbstractScene
 {
+public:
 	//デストラクタ
 	virtual ~AbstractScene() {};
 
