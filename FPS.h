@@ -44,7 +44,6 @@ public:
 		if (waitTime > 0) {
 			std::chrono::milliseconds dura(waitTime);
 			std::this_thread::sleep_for(dura);
-			//Sleep(waitTime);	//‘Ò‹@
 		}
 	}
 };

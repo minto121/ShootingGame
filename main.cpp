@@ -21,7 +21,7 @@ int WINAPI WinMain(_In_ HINSTANCE ih, _In_opt_ HINSTANCE ioh, _In_ LPSTR il, _In
 	ChangeWindowMode(TRUE);
 
 	//画面サイズ指定
-	if (SetGraphMode(WIDTH, HEIGHT, REFRESHRATE) != DX_CHANGESCREEN_OK)
+	if (SetGraphMode(WIDTH, HEIGHT,REFRESHRATE) != DX_CHANGESCREEN_OK)
 	{
 		return -1;
 	}
@@ -62,8 +62,8 @@ int WINAPI WinMain(_In_ HINSTANCE ih, _In_opt_ HINSTANCE ioh, _In_ LPSTR il, _In
 
 		//fps
 		fps.Update();	//更新
-
 		fps.Draw();
+
 		ScreenFlip();	// 裏画面の内容を表画面に反映
 
 		fps.Wait();		//待機

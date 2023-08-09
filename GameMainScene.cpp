@@ -1,9 +1,11 @@
 #include"DxLib.h"
 #include "GameMainScene.h"
 #include"AbstractScene.h"
+#include"Player.h"
 
 GameMainScene::GameMainScene()
 {
+	player = new Player();
 }
 
 GameMainScene::~GameMainScene()
@@ -12,9 +14,16 @@ GameMainScene::~GameMainScene()
 
 AbstractScene* GameMainScene::Update()
 {
-	return nullptr;
+	player->Update();
+	return this;
 }
 
 void GameMainScene::Draw() const
+{
+	player->Update();
+	DrawString(100, 0, "gamemain", 0xffffff);
+}
+
+void GameMainScene::SpawnBullet()
 {
 }

@@ -19,6 +19,7 @@ private:
 	static XINPUT_STATE input; //パッド
 	static Stick r_stick; //右スティック
 	static Stick l_stick; //左スティック
+	static int g_KeyFlg;
 private:
 
 	//コンストラクタ

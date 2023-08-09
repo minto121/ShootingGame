@@ -1,5 +1,6 @@
 #pragma once
 #include"AbstractScene.h"
+#include"Player.h"
 class GameMainScene:public AbstractScene
 {
 private:
@@ -13,5 +14,10 @@ public:
 	AbstractScene* Update();
 	//•`‰æ‚ÉŠÖ‚·‚é‚±‚Æ‚ðŽÀ‘•
 	void Draw() const;
+
+	void SpawnBullet();
+
+	Player* player;
+
 };
 
