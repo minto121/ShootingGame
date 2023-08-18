@@ -2,6 +2,7 @@
 
 Enemy::Enemy()
 {
+	int hp = 100;
 }
 
 Enemy::~Enemy()

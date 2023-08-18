@@ -20,7 +20,7 @@ void BulletsSpawner::Draw() const
 void BulletsSpawner::MoveBall()
 {
 	if (flg == TRUE) {
-		//上に行く
+		//右に行く
 		x += speed;
 
 		//画面をはみ出したら消去

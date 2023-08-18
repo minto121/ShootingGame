@@ -15,6 +15,5 @@ public:
     // •`‰æˆ—‚ğÀs‚·‚é
     void Draw() const ;
 
-    void Hit();
 };
 

@@ -17,7 +17,7 @@ public:
 
 	void SpawnBullet();
 
-	Player* player;
+	 /*Player* player;*/
 
 };
 
