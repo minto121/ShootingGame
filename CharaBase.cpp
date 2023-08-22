@@ -6,6 +6,10 @@ CharaBase::CharaBase()
 	image = 0;
 }
 
+CharaBase::~CharaBase()
+{
+}
+
 void CharaBase::Update()
 {
 }

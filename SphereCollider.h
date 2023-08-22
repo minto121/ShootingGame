@@ -1,6 +1,4 @@
 #pragma once
-#include"GameMainScene.h"
-
 //中心座標
 struct Location
 {
@@ -18,16 +16,11 @@ struct Erea
 };
 class SphereCollider
 {
-protected:
+
 	Location location;	//中心座標
 	Erea erea; //範囲
 public:
-	//コンストラクタ
-	SphereCollider();
-	//デストラクタ
-	~SphereCollider();
-	//描画以外の更新を実行
-	void Update();
+	
 	//描画に関することを実装
 	void Draw() const ;
 	//当たり判定の判定

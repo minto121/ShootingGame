@@ -1,17 +1,6 @@
 #include "SphereCollider.h"
 #include"DxLib.h"
 
-SphereCollider::SphereCollider()
-{
-}
-
-SphereCollider::~SphereCollider()
-{
-}
-
-void SphereCollider::Update()
-{
-}
 
 void SphereCollider::CheckCollision()
 {
