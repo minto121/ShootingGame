@@ -21,5 +21,5 @@ AbstractScene* TitleScene::Update()
 
 void TitleScene::Draw() const
 {
-	DrawString(100, 0,"title", 0xffffff);
+	DrawString(100, 0,"0キーを押してスタート", 0xffffff);
 }

@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractScene.h" />
+    <ClInclude Include="Bullet.h" />
     <ClInclude Include="BulletsSpawner.h" />
     <ClInclude Include="CharaBase.h" />
     <ClInclude Include="Enemy.h" />
@@ -35,8 +36,8 @@
     <ClInclude Include="TitleScene.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="BulletsSpawner.cpp" />
-    <ClCompile Include="CharaBase.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="GameClaerScene.cpp" />
     <ClCompile Include="GameMainScene.cpp" />

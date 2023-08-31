@@ -6,7 +6,7 @@ void SphereCollider::CheckCollision()
 {
 }
 
-int SphereCollider::Hit(SphereCollider* bCollider)
+int SphereCollider::HitBox(SphereCollider* bCollider)
 {
 	int ret = false; //•Ô‚è’l
 
@@ -27,7 +27,6 @@ int SphereCollider::Hit(SphereCollider* bCollider)
 	//}
 	//return ret;
 
-	
 	return 0;
 }
 

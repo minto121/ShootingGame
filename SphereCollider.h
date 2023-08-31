@@ -16,17 +16,19 @@ struct Erea
 };
 class SphereCollider
 {
-
+protected:
 	Location location;	//中心座標
 	Erea erea; //範囲
+
 public:
 	
 	//描画に関することを実装
 	void Draw() const ;
+
 	//当たり判定の判定
 	void CheckCollision();
 
-	int Hit(SphereCollider* bCollider);
+	int HitBox(SphereCollider* bCollider);
 
 	//中心座標の取得
 	Location GetLocation()const;
